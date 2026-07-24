@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://qpq5f48xaajg"]
+
+[ext_resource type="Script" uid="uid://bis3kr5xcv8g1" path="res://entities/person/person.gd" id="1_ffisq"]
+
+[node name="Person" type="CharacterBody2D" unique_id=1016914708]
+script = ExtResource("1_ffisq")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1630032295]
+
+[node name="Hitbox" type="CollisionShape2D" parent="." unique_id=854835770]
