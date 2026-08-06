@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh4rp307obirh"
-path="res://.godot/imported/floor.png-46241890f486f38cf281d9a60ff8af24.ctex"
+uid="uid://b10b84jiinsji"
+path="res://.godot/imported/mhaf_front.png-996081b8d847912ba91c9efecd122577.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tilemaps/floor.png"
-dest_files=["res://.godot/imported/floor.png-46241890f486f38cf281d9a60ff8af24.ctex"]
+source_file="res://assets/people/mhaf/mhaf_front.png"
+dest_files=["res://.godot/imported/mhaf_front.png-996081b8d847912ba91c9efecd122577.ctex"]
 
 [params]
 

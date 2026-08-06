@@ -1,8 +1,20 @@
+class_name Person
 extends CharacterBody2D
 
-@export var speed := 200.0
+@export var speed = 150
+var is_player = true
 
-func _physics_process(_delta: float) -> void:
-	var direction := Input.get_vector("move_left", "move_right", "move_up", "move_down")
-	velocity = direction * speed
+func get_input():
+	var input_direction
+	
+	if is_player:
+		input_direction = Input.get_vector("left", "right", "up", "down")
+	else:
+		input_direction = Vector2(0, 0)
+		
+	velocity = input_direction * speed
+
+func _physics_process(delta):
+	get_input()
 	move_and_slide()
+	
