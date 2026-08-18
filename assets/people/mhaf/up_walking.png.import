@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b10b84jiinsji"
-path="res://.godot/imported/mhaf_front.png-996081b8d847912ba91c9efecd122577.ctex"
+uid="uid://bbnmthhjalwjb"
+path="res://.godot/imported/up_walking.png-74db061d4b9153323ff66048a1d0b00d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/people/mhaf/mhaf_front.png"
-dest_files=["res://.godot/imported/mhaf_front.png-996081b8d847912ba91c9efecd122577.ctex"]
+source_file="res://assets/people/mhaf/up_walking.png"
+dest_files=["res://.godot/imported/up_walking.png-74db061d4b9153323ff66048a1d0b00d.ctex"]
 
 [params]
 

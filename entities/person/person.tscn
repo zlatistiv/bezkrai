@@ -1,25 +1,20 @@
 [gd_scene format=3 uid="uid://qpq5f48xaajg"]
 
 [ext_resource type="Script" uid="uid://bis3kr5xcv8g1" path="res://entities/person/person.gd" id="1_ffisq"]
-[ext_resource type="Texture2D" uid="uid://b10b84jiinsji" path="res://assets/people/mhaf/mhaf_front.png" id="2_lrg5a"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cw2dw"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("2_lrg5a")
-}],
-"loop": true,
-"name": &"standing",
-"speed": 5.0
-}]
+animations = []
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cw2dw"]
+size = Vector2(24, 38)
 
 [node name="Person" type="CharacterBody2D" unique_id=1016914708]
 script = ExtResource("1_ffisq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1380707782]
 sprite_frames = SubResource("SpriteFrames_cw2dw")
-animation = &"standing"
-frame_progress = 0.7556589
+animation = &""
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1619499524]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_cw2dw")
