@@ -18,3 +18,6 @@ animation = &""
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1619499524]
 position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_cw2dw")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1941735546]
+enabled = false
