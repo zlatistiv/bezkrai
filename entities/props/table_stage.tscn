@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ccpuuw8ckf17q"]
+
+[ext_resource type="Texture2D" uid="uid://bakc2qp4l3hyg" path="res://assets/props/table_stage.png" id="1_rs5bh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yhqxc"]
+size = Vector2(24, 19)
+
+[node name="TableStage" type="StaticBody2D" unique_id=496794837]
+
+[node name="TableStage" type="Sprite2D" parent="." unique_id=2125931036]
+texture = ExtResource("1_rs5bh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1040948411]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_yhqxc")
