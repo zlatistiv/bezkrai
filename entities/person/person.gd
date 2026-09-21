@@ -15,6 +15,8 @@ const DIRECTIONS := {
 }
 
 func _ready() -> void:
+	$Label.text = String(self.get_path()).split('/')[-1]
+	
 	var frames := SpriteFrames.new()
 	frames.remove_animation('default')
 	var sprites_dir = 'res://%s/%s/' % [Global.people_path, self.name.to_lower()]

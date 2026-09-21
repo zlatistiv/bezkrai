@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://qpq5f48xaajg"]
 
 [ext_resource type="Script" uid="uid://bis3kr5xcv8g1" path="res://entities/person/person.gd" id="1_ffisq"]
+[ext_resource type="Script" uid="uid://dxuv6ywsra623" path="res://entities/person/camera_2d.gd" id="2_lrg5a"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cw2dw"]
 animations = []
@@ -21,3 +22,14 @@ shape = SubResource("RectangleShape2D_cw2dw")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1941735546]
 enabled = false
+script = ExtResource("2_lrg5a")
+scale_factor = 2.0
+
+[node name="Label" type="Label" parent="." unique_id=13289014]
+z_index = 2
+offset_left = -20.0
+offset_top = -42.0
+offset_right = 20.0
+offset_bottom = -19.0
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
